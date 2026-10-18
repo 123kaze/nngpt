@@ -3,6 +3,8 @@
     "*.cce": "cpp",
     "*.asc": "cpp"
   },
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
   "ascendCToolkit.environment.environmentScript": "/etc/profile",
   "ascendCToolkit.projectType": "pyasc",
   "ascendCToolkit.compileAndDeploy.buildConfig.operatorNameToCompile": "nanogpt",
@@ -47,7 +49,5 @@
   "ascendCToolkit.performanceTuning.onBoard.pcSampling": false,
   "ascendCToolkit.performanceTuning.onBoard.cacheHeatmap": true,
   "ascendCToolkit.performanceTuning.onBoard.parameters": {},
-  "ascendCToolkit.performanceTuning.onBoard.operatorMetrics": true,
-  "python-envs.defaultEnvManager": "ms-python.python:conda",
-  "python-envs.defaultPackageManager": "ms-python.python:conda"
+  "ascendCToolkit.performanceTuning.onBoard.operatorMetrics": true
 }
